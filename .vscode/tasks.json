@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Probe: build",
+            "type": "recurloop",
+            "target": "build",
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": []
+        },
+        {
+            "label": "Probe: check",
+            "type": "recurloop",
+            "target": "check",
+            "group": { "kind": "test", "isDefault": true },
+            "problemMatcher": []
+        }
+    ]
+}

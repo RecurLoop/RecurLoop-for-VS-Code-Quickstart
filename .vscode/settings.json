@@ -1,0 +1,11 @@
+{
+    "recurloop.executablePath": "/home/user/repos/RecurLoop/build/Release/bin/recurloop",
+    "terminal.integrated.profiles.linux": {
+        "RecurLoop": {
+            "extensionIdentifier": "recurloop.recurloop-vscode",
+            "id": "recurloop.console",
+            "title": "RecurLoop"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "RecurLoop"
+}
