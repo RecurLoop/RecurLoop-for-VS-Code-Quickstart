@@ -13,8 +13,3 @@ let Probe:main = fn () -> i64 {
     }
     return 0
 }
-
-let abecadki = fn () -> i64 {
-    printf("aaa bbb ccc\n")
-    return 0
-}

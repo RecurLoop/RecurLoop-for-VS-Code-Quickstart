@@ -1,12 +1,6 @@
 // Load definitions; run the application only when a target is requested.
 include "src/main.rl"
-let "Probe:main()" = phrase {
-    type = <phrase-types:elaborate>
-    action = fn (state:Context*, called:Phrase*) -> void {
-        Probe:main()
-    }
-}
-var i = 5
+
 target check {
     assert Probe:advance(10, 0) == 10
     print "OK: a stationary probe keeps its distance."
